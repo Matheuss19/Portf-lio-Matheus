@@ -1,1 +1,37 @@
-# Portf-lio-Matheus
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfólio – Matheus Matos</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body>
+  <header class="cabecalho">
+    <h1>Matheus</h1>
+    <nav>
+      <a href="#sobre" target="_blank">Sobre</a>
+      <a href="#projetos" target="_blank">Projetos</a>
+      <a href="#contato" target="_blank">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre" class="sobre">
+    <img src="img/perfil.jpg" alt="Foto Matheus" class="sobre__foto" />
+    <p>Olá! Sou Matheus Matos, desenvolvedor focado em front‑end (HTML, CSS e JavaScript).</p>
+  </section>
+
+  <section id="projetos" class="projetos">
+    <h2>Meus Projetos</h2>
+    <ul>
+      <li><a href="https://editor.p5js.org/meinneger/sketches/mRVP9mSh6"_blank">Projeto 1 – Interativo 1</a></li>
+      <li><a href="https://editor.p5js.org/meinneger/sketches/7tZGWue-c"_blank">Projeto 2 – Interativo 2</a></li>
+      <li><a href="https://editor.p5js.org/meinneger/sketches/2NaKZtzdz" target="_blank">Projeto 3 – Interativo 3</a></li>
+    </ul>
+  </section>
+
+  <footer id="contato" class="rodape">
+    <p>Feito porMatheus Matos | <a href="https://github.com/seu-usuario" target="_blank">GitHub</a></p>
+  </footer>
+</body>
+</html>
